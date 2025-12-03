@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.webleger.builder</groupId>
+		<artifactId>framework</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>./weblegerPom.xml</relativePath>
+	</parent>
+
+	<groupId>org.ethiknet</groupId>
+	<artifactId>weblegerwebWebSite</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>MonSite</name>
+
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<publish.url>scm:git:git@github.com:Webleger/webleger.git</publish.url>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+
+	<distributionManagement>
+		<site>
+			<id>github</id>
+			<url>${publish.url}</url>
+		</site>
+	</distributionManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+			</plugin>
+		</plugins>
+
+	</build>
+
+</project>
