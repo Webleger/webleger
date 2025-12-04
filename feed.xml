@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>https://WebLeger/webleger</link>
-    <atom:link href="https://WebLeger/webleger/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://webleger.github.io/webleger/index.html</link>
+    <atom:link href="https://webleger.github.io/webleger/index.html/feed.xml" rel="self" type="application/rss+xml" />
     <description>Description de mon site</description>
     <language>fr_FR</language>
-    <pubDate>jeu., 4 déc. 2025 18:38:06 +0100</pubDate>
-    <lastBuildDate>jeu., 4 déc. 2025 18:38:06 +0100</lastBuildDate>
+    <pubDate>jeu., 4 déc. 2025 18:41:50 +0100</pubDate>
+    <lastBuildDate>jeu., 4 déc. 2025 18:41:50 +0100</lastBuildDate>
 
 
   </channel> 
